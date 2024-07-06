@@ -1,0 +1,25 @@
+.marker {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filter {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 1000;
+    width: 50%;
+    height: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
